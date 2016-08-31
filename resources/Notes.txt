@@ -1,0 +1,90 @@
+if itemID>12
+	setY = 300
+	itemID-12	
+if itemID>6
+	setY = 200
+	itemID - 6
+else
+	setY = 100
+
+
+
+dimentions: 600x350
+	titel row
+ 	 1 2 3 4 5 6  <-- Colors
+	 7 8 9 0 1 2  <-- Stats
+	13 4 5 6 7 8  <-- Targets and Stats
+
+Upgrades:
+	Colors:
+		- Blue
+		- Green
+		- Red
+		- Yellow
+		- Purple
+		- DragonBall
+	Stats:
+		- Size
+		- Speed
+		- bouncyness
+		- Buy more balls x10
+		- Buy More balls x25
+		- buy more balls x100
+	Backgrounds:
+		- Buy
+	Targets:
+		- Double Coins
+		- Increase Chance for Blue Targets to spawn (worth 3)
+		- Increase Chance for Black Targets to Spawn (worth 10)
+	Other: 
+		- Increase Level (moving targets, smaller targets, etc)
+		
+		
+		
+		
+1) Github.com ---> make account
+2) download ---> Git and GitBash
+3) navigate to src of program ---> right click and press "GitBash here"
+4)
+	- git init
+	- git clone https://github.com/Ramin123/ISU-Project
+	- git remote add <somename> https://github.com/Ramin123/ISU-Project
+	- git pull <somename> master
+	
+5)when you want to work on the project,
+	-git pull <somename> master
+	to save changes:
+		-git commit -m "description"
+		-git push <somename> master
+	
+Tutorial:
+
+	1:
+Welcome to _____. The goal of the game is to hit the Targets. (TARGET IMAGE)
+Press SPACE the first time to AIM your cannon. (MOVING CANNON)
+Press SPACE again to set your cannons POWER. (POWERBAR LOADING)
+
+	2:
+There are 4 Types of targets.
+RED: the basic target. (RED TARGET IMAGE)
+BLUE: a uncommon target. More rewarding than the RED TARGET. (BLACK T)
+BLACK: a rare target. It moves, and has a high reward.
+YELLOW: a rare Target. It Teleports, and has a high reward.
+
+	3:
+Targets reward you with COINDS and AMMO.
+Use your COINS in the SHOP to purchase upgrades and cosmetics.
+Each shot costs 1 AMMO. Purchase more in the SHOP, or from TARGET rewards.
+Rarer TARGETS give more COINS and AMMO. 
+
+	4:
+Purchase a LEVEL UP in the SHOP to advance to the next LEVEL.
+Each LEVEL has smaller, but better rewarding, TARGETS.
+Reach the LEVEL milestone after LEVEL 6 to WIN!
+	
+
+
+		
+		
+		
+		
