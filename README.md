@@ -16,7 +16,7 @@ This game is about hitting targets by using a cannon.
 If you are interested in running this application, you need to install java and jdk and then run the commands javac Main.java and java Main
 
 # Screenshots:
-![Alt text](/screenshots/selecting_ships.PNG)
-![Alt text](/screenshots/start.PNG)
-![Alt text](/screenshots/lose.PNG)
-![Alt text](/screenshots/win.PNG)
+![Alt text](/screenshots/menu.PNG)
+![Alt text](/screenshots/tutorial.PNG)
+![Alt text](/screenshots/shop.PNG)
+![Alt text](/screenshots/play.PNG)
