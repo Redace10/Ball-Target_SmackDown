@@ -28,7 +28,7 @@ public class Ball {
 		
 		this.radius = radius;
 		try {
-			icon = ImageIO.read(new File("src/resources/ball.png")).getScaledInstance(256,256, Image.SCALE_SMOOTH);
+			icon = ImageIO.read(new File("resources/ball.png")).getScaledInstance(256,256, Image.SCALE_SMOOTH);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -42,7 +42,7 @@ public class Ball {
 		
 		this.radius = radius;
 		try {
-			icon = ImageIO.read(new File("src/resources/ball.png"));
+			icon = ImageIO.read(new File("resources/ball.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -32,7 +32,7 @@ public class TutorialGUI extends JPanel implements ActionListener{
 		Timer main = new Timer(20, this);
 		//main.start();
 		try {
-			pageImg = ImageIO.read(new File("src/resources/tutorial page 1.png"));
+			pageImg = ImageIO.read(new File("resources/tutorial page 1.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -104,11 +104,11 @@ public class TutorialGUI extends JPanel implements ActionListener{
 	public void updatePage(){
 	try{
 		switch(pageNumber){
-			case 1: pageImg = ImageIO.read(new File("src/resources/tutorial page 1.png")); break;
-			case 2: pageImg = ImageIO.read(new File("src/resources/tutorial page 2.png")); break;
-			case 3: pageImg = ImageIO.read(new File("src/resources/tutorial page 3.png"));break;
-			case 4: pageImg = ImageIO.read(new File("src/resources/tutorial page 4.png"));break;
-			case 5: pageImg = ImageIO.read(new File("src/resources/tutorial page 5.png")); break;
+			case 1: pageImg = ImageIO.read(new File("resources/tutorial page 1.png")); break;
+			case 2: pageImg = ImageIO.read(new File("resources/tutorial page 2.png")); break;
+			case 3: pageImg = ImageIO.read(new File("resources/tutorial page 3.png"));break;
+			case 4: pageImg = ImageIO.read(new File("resources/tutorial page 4.png"));break;
+			case 5: pageImg = ImageIO.read(new File("resources/tutorial page 5.png")); break;
 		}
 	} catch (IOException e) { 
 		e.printStackTrace();

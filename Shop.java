@@ -66,7 +66,7 @@ public class Shop extends JFrame{
 		moneyLabel.setText("x" + game.getMoney());
 		moneyLabel.setBounds(35,7,90,20);
 		try {
-			shopBackground = ImageIO.read(new File("src/resources/Shop Background.png"));
+			shopBackground = ImageIO.read(new File("resources/Shop Background.png"));
 		} catch (IOException e1) { 
 			e1.printStackTrace();
 		}
@@ -81,7 +81,7 @@ public class Shop extends JFrame{
 					}
 						currentColor = Color.BLUE;
 						try {
-							getImg = ImageIO.read(new File("src/resources/ball.png"));
+							getImg = ImageIO.read(new File("resources/ball.png"));
 							game.setBallImg(getImg.getScaledInstance(512,512, Image.SCALE_SMOOTH));
 						} catch (IOException e1) {
 							e1.printStackTrace();
@@ -103,7 +103,7 @@ public class Shop extends JFrame{
 					}
 						currentColor = Color.RED;
 						try {
-							getImg = ImageIO.read(new File("src/resources/apple.png"));
+							getImg = ImageIO.read(new File("resources/apple.png"));
 							game.setBallImg(getImg.getScaledInstance(512,512, Image.SCALE_SMOOTH));
 						} catch (IOException e1) {
 							e1.printStackTrace();
@@ -124,7 +124,7 @@ public class Shop extends JFrame{
 						checkFunds();
 					}
 					try {
-						getImg = ImageIO.read(new File("src/resources/rock.png"));
+						getImg = ImageIO.read(new File("resources/rock.png"));
 						game.setBallImg(getImg.getScaledInstance(512,512, Image.SCALE_SMOOTH));
 					} catch (IOException e1) {
 						e1.printStackTrace();
@@ -146,7 +146,7 @@ public class Shop extends JFrame{
 					}
 						currentColor = Color.YELLOW;
 						try {
-							getImg = ImageIO.read(new File("src/resources/Pokeball.PNG"));
+							getImg = ImageIO.read(new File("resources/Pokeball.PNG"));
 							game.setBallImg(getImg.getScaledInstance(512,512, Image.SCALE_SMOOTH));
 						} catch (IOException e1) {
 							e1.printStackTrace();
@@ -168,7 +168,7 @@ public class Shop extends JFrame{
 					}
 						currentColor = new Color(95, 0, 165);
 						try {
-							getImg = ImageIO.read(new File("src/resources/soccer ball.png"));
+							getImg = ImageIO.read(new File("resources/soccer ball.png"));
 							game.setBallImg(getImg.getScaledInstance(512,512, Image.SCALE_SMOOTH));
 						} catch (IOException e1) {
 							e1.printStackTrace();
@@ -190,7 +190,7 @@ public class Shop extends JFrame{
 					}
 						currentColor = Color.CYAN;
 						try {
-							getImg = ImageIO.read(new File("src/resources/super ball.png"));
+							getImg = ImageIO.read(new File("resources/super ball.png"));
 							game.setBallImg(getImg.getScaledInstance(512,512, Image.SCALE_SMOOTH));
 						} catch (IOException e1) {
 							e1.printStackTrace();
@@ -360,7 +360,7 @@ public class Shop extends JFrame{
 						checkFunds();
 					}
 					try {                
-						game.setBackgroundImg(ImageIO.read(new File("src/resources/Beach.jpg")));
+						game.setBackgroundImg(ImageIO.read(new File("resources/Beach.jpg")));
 				    } catch (IOException ex) {
 				    	System.out.println("No image could be found");
 				    }
@@ -382,7 +382,7 @@ public class Shop extends JFrame{
 						checkFunds();
 					}
 					try {                
-						game.setBackgroundImg(ImageIO.read(new File("src/resources/Park.jpg")));
+						game.setBackgroundImg(ImageIO.read(new File("resources/Park.jpg")));
 				    } catch (IOException ex) {
 				    	System.out.println("No image could be found");
 				    }
@@ -404,7 +404,7 @@ public class Shop extends JFrame{
 						checkFunds();
 					}
 					try {                
-						game.setBackgroundImg(ImageIO.read(new File("src/resources/Space.jpg")));
+						game.setBackgroundImg(ImageIO.read(new File("resources/Space.jpg")));
 				    } catch (IOException ex) {
 				    	System.out.println("No image could be found");
 				    }
@@ -444,25 +444,25 @@ public class Shop extends JFrame{
 			}
 		});	
 //-------------------------------------------------------------------------------------------------------------------			
-		blueBall.setImg("src/resources/cannon icon.png",1);
-		redBall.setImg("src/resources/apple icon.png",1);
-		yellowBall.setImg("src/resources/Pokeball icon.png",1);
-		purpleBall.setImg("src/resources/soccer icon.png",1);
-		greenBall.setImg("src/resources/rock icon.png",1);
-		dragonBall.setImg("src/resources/super icon.png",1);
-		dragonBall.setImg("src/resources/super icon.png",1);
-		size.setImg("src/resources/Size Increase.png",0);
-		bouncyness.setImg("src/resources/Bounce.png",0);
-		powerBarSpeed.setImg("src/resources/Power Bar Speed Icon.png",0);
-		ballQuantity10.setImg("src/resources/10 quantity.png",0);
-		ballQuantity25.setImg("src/resources/25 quantity.png",0);
-		ballQuantity50.setImg("src/resources/50 quantity.png",0);
-		doubleCoins.setImg("src/resources/Coin Drop.png",0);
-		blackTargetChance.setImg("src/resources/Black Target Increase.png",0);
-		beachBackground.setImg("src/resources/beach icon 3.png",0);
-		parkBackground.setImg("src/resources/park icon 3.png",0);
-		spaceBackground.setImg("src/resources/space icon 3.png",0);
-		ballSpeed.setImg("src/resources/Ball Speed.png",0);
+		blueBall.setImg("resources/cannon icon.png",1);
+		redBall.setImg("resources/apple icon.png",1);
+		yellowBall.setImg("resources/Pokeball icon.png",1);
+		purpleBall.setImg("resources/soccer icon.png",1);
+		greenBall.setImg("resources/rock icon.png",1);
+		dragonBall.setImg("resources/super icon.png",1);
+		dragonBall.setImg("resources/super icon.png",1);
+		size.setImg("resources/Size Increase.png",0);
+		bouncyness.setImg("resources/Bounce.png",0);
+		powerBarSpeed.setImg("resources/Power Bar Speed Icon.png",0);
+		ballQuantity10.setImg("resources/10 quantity.png",0);
+		ballQuantity25.setImg("resources/25 quantity.png",0);
+		ballQuantity50.setImg("resources/50 quantity.png",0);
+		doubleCoins.setImg("resources/Coin Drop.png",0);
+		blackTargetChance.setImg("resources/Black Target Increase.png",0);
+		beachBackground.setImg("resources/beach icon 3.png",0);
+		parkBackground.setImg("resources/park icon 3.png",0);
+		spaceBackground.setImg("resources/space icon 3.png",0);
+		ballSpeed.setImg("resources/Ball Speed.png",0);
 		
 //-------------------------------------------------------------------------------------------------------------------			
 		Container c = this.getContentPane();

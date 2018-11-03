@@ -22,7 +22,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
-import javax.swing.JTextField; 
+import javax.swing.JTextField;
 
 public class MenuGUI{
 	private BufferedImage playImg;
@@ -44,7 +44,7 @@ public class MenuGUI{
 	private JFrame frame = new JFrame(); 
 	private Container c = frame.getContentPane();
 	private WindowEvent close = new WindowEvent(frame, WindowEvent.WINDOW_CLOSING);
-	private File users = new File ("src/resources/Users.txt");
+	private File users = new File ("resources/Users.txt");
 	private FileReader in; private FileWriter out;
 	private BufferedReader readFile; private BufferedWriter writeFile;
 	private Scanner scan;
@@ -115,10 +115,10 @@ public class MenuGUI{
 		clearAccountsButton.setBounds(296+165-200, 186+166-200+60, 262, 67);
 		//startButton.setText("Start");
 		try {
-			playImg = ImageIO.read(new File("src\\resources\\button play.png"));
-			tutImg = ImageIO.read(new File("src\\resources\\button top.png"));
-			exitImg = ImageIO.read(new File("src\\resources\\button bottom.png"));
-			clearAccImg = ImageIO.read(new File("src\\resources\\button middle.png"));
+			playImg = ImageIO.read(new File("resources\\button play.png"));
+			tutImg = ImageIO.read(new File("resources\\button top.png"));
+			exitImg = ImageIO.read(new File("resources\\button bottom.png"));
+			clearAccImg = ImageIO.read(new File("resources\\button middle.png"));
 			
 			startButton.setIcon(new ImageIcon(playImg));
 			tutorialButton.setIcon(new ImageIcon(tutImg));
@@ -211,7 +211,7 @@ public class MenuGUI{
 		public void paintComponent(Graphics g){
 			super.paintComponent(g);
 			try {
-				g.drawImage(ImageIO.read(new File("src\\resources\\menu background.png")), 0, 0, null);
+				g.drawImage(ImageIO.read(new File("resources\\menu background.png")), 0, 0, null);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

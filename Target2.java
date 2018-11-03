@@ -74,23 +74,23 @@ public class Target2 {
 			switch(type){
 			case RED: coinReward = 1 + Game.getLevel()-1;
 					ballReward = (int)giveBall;
-					icon = ImageIO.read(new File("src/resources/target red.png"));
+					icon = ImageIO.read(new File("resources/target red.png"));
 					break;
 			case BLUE: coinReward = 3 + Game.getLevel()-1;
 					ballReward = 1;
-					icon = ImageIO.read(new File("src/resources/target blue.png"));
+					icon = ImageIO.read(new File("resources/target blue.png"));
 					break;
 			case BLACK: coinReward = 15 + 5 * (Game.getLevel()-1);
 					ballReward = 1;
 					speed = 4 + Game.getLevel()-1;
 					x = 0;
-					icon = ImageIO.read(new File("src/resources/target.png"));
+					icon = ImageIO.read(new File("resources/target.png"));
 					break;
 			case YELLOW: coinReward = 20 + 5 * (Game.getLevel()-1);
 					ballReward = 1;
 					maxDeviance = 100 + 30 * (Game.getLevel()-1);
 					counter = 0;
-					icon = ImageIO.read(new File("src/resources/target yellow.png"));
+					icon = ImageIO.read(new File("resources/target yellow.png"));
 					break;
 			}
 		} catch (IOException e) { 

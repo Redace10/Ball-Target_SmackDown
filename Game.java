@@ -104,13 +104,13 @@ public class Game extends JPanel implements ActionListener{
 		powerBar.setValue(0);
 				//images
 		try {
-			barrelImg = ImageIO.read(new File("src/resources/cannon barrel final.png"));
-			wheels = ImageIO.read(new File("src/resources/wheels good.png"));
-			shopButton = ImageIO.read(new File("src/resources/Shop.png"));
-			coinImg = ImageIO.read((new File("src/resources/Coin2.png")));
-			ballImg = ImageIO.read((new File("src/resources/ball.png")));
-			background = ImageIO.read((new File("src/resources/default.png"))); 
-			levelImg = ImageIO.read((new File("src/resources/Level Up 25.png")));
+			barrelImg = ImageIO.read(new File("resources/cannon barrel final.png"));
+			wheels = ImageIO.read(new File("resources/wheels good.png"));
+			shopButton = ImageIO.read(new File("resources/Shop.png"));
+			coinImg = ImageIO.read((new File("resources/Coin2.png")));
+			ballImg = ImageIO.read((new File("resources/ball.png")));
+			background = ImageIO.read((new File("resources/default.png"))); 
+			levelImg = ImageIO.read((new File("resources/Level Up 25.png")));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -273,12 +273,12 @@ public class Game extends JPanel implements ActionListener{
 	public int getLevelMilestone(){
 		try {
 			switch (LEVEL){
-				case 0: levelImg = ImageIO.read((new File("src/resources/Level Up 50.png")));return 25;
-				case 1: levelImg = ImageIO.read((new File("src/resources/Level Up 100.png")));return 50;
-				case 2: levelImg = ImageIO.read((new File("src/resources/Level Up 250.png")));return 100;
-				case 3: levelImg = ImageIO.read((new File("src/resources/Level Up 750.png")));return 250;
-				case 4: levelImg = ImageIO.read((new File("src/resources/Level Up 1500.png")));return 750;
-				case 5: levelImg = ImageIO.read((new File("src/resources/Level Up 1500.png")));return 1500;
+				case 0: levelImg = ImageIO.read((new File("resources/Level Up 50.png")));return 25;
+				case 1: levelImg = ImageIO.read((new File("resources/Level Up 100.png")));return 50;
+				case 2: levelImg = ImageIO.read((new File("resources/Level Up 250.png")));return 100;
+				case 3: levelImg = ImageIO.read((new File("resources/Level Up 750.png")));return 250;
+				case 4: levelImg = ImageIO.read((new File("resources/Level Up 1500.png")));return 750;
+				case 5: levelImg = ImageIO.read((new File("resources/Level Up 1500.png")));return 1500;
 				case 6: return 1000000;
 			}
 

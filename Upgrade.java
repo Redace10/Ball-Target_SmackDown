@@ -50,7 +50,7 @@ public class Upgrade {
 				xLoc = 35 + (BUFFER * 5); break;	
 		}
 		try{
-			getCoinImg = ImageIO.read(new File("src/resources/Coin2.png"));
+			getCoinImg = ImageIO.read(new File("resources/Coin2.png"));
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
