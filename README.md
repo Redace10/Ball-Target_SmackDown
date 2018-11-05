@@ -7,13 +7,13 @@ This game is about hitting targets by using a cannon.
 - Use mouse pointer to aim the cannon
 - hold space to set the cannon's power
 - different type of targets with ranging difficulties (ex: red, blue, black, yellow)
-- targets reward with coins and ammo. 
-- coins can be used in the shop to purchase upgrades and cosmetics (ex: background, balls, size of ball)
+- hitting targets reward you with coins and ammo. 
+- coins can be used in the shop to purchase upgrades and cosmetics (ex: background, balls, size of ball, stats)
 - custom made designs, backgrounds, items using photoshop
-- implmented ball's projectile based on the mouse cursor and the amount of time the space bar has been pressed down
+- implemented ball's projectile based on the mouse cursor and the amount of time the space bar has been pressed down
 
 # How to Run
-If you are interested in running this application, you need to install java and jdk and then run the commands javac Main.java and java Main
+If you are interested in running this application, you need to install java and jdk and then run the commands `javac Main.java` and then `java Main`
 
 # Screenshots:
 ![Alt text](/screenshots/menu.PNG)
