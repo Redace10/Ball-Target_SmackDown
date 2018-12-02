@@ -3,6 +3,10 @@
 # Summary
 This game is about hitting targets by using a cannon.
 
+This was a group project:
+
+Members: Andrew Lee, Ramin Kaviani, Fraser Mann, James Kattukudiyil
+
 # Features
 - Use mouse pointer to aim the cannon
 - hold space to set the cannon's power
